@@ -9,20 +9,33 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-<br>
+<br>Import all the necessary modules
 
 ### Step2:
-<br>
+<br>Choose an image and save it as filename.jpg
 
 ### Step3:
-<br>
+<br>Use imread to read the image
 
 ### Step4:
-<br>
+<br>Use cv2.warpPerspective(image,M,(cols,rows)) to translation the image
 
 ### Step5:
-<br>
+<br>Use cv2.warpPerspective(image,M,(cols*2,rows*2)) to scale the image
+### Step6:
+Use cv2.warpPerspective(image,M,(int(cols*1.5),int(rows*1.5))) for x and y axis to shear the image
 
+### Step7:
+<br>Use cv2.warpPerspective(image,M,(int(cols),int(rows))) for x and y axis to reflect the image
+### Step8:
+<br>Use cv2.warpPerspective(image,M,(int(cols),int(rows))) to rotate the image
+### Step9:
+<br>Crop the image to remove unwanted areas from an image
+### Step10:
+
+<br>Use cv2.imshow to show the image
+### Step11:
+<br>End the program
 ## Program:
 
 ### Developed By: Vinush.CV
@@ -103,35 +116,36 @@ plt.show()
 
 ### ii) Image Scaling
 
+![image](https://github.com/user-attachments/assets/d15362a7-d021-4ecc-8e10-11b9596f4b96)
 
 
 
 ### iii)Image shearing
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/35bb3c77-5b42-4def-a375-4f62317543df)
 
 
 
 ### iv)Image Reflection
-<br>
-<br>
-<br>
-<br>
+
+
+![image](https://github.com/user-attachments/assets/69322202-5411-4cf3-9a81-60678398dac0)
+
 
 
 
 ### v)Image Rotation
-<br>
-<br>
-<br>
-<br>
+
+![image](https://github.com/user-attachments/assets/2fc7256f-ffd8-48d4-8482-20bdd92e44e4)
+
 
 
 
 ### vi)Image Cropping
-<br>
-<br>
-<br>
-<br>
+
+
+![image](https://github.com/user-attachments/assets/54ae65ee-5b99-4a38-9915-a3a48e479d02)
+
 
 
 
