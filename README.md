@@ -53,6 +53,9 @@ plt.imshow(image_rgb)
 plt.title("Original Image")
 plt.axis('off')
 ```
+
+![image](https://github.com/user-attachments/assets/0756db2e-d8e3-48ad-876b-8af9caed43e6)
+
 ### i)Image Translation
 ```python
 rows, cols, _ = image.shape
