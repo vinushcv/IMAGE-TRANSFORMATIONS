@@ -54,7 +54,7 @@ plt.title("Original Image")
 plt.axis('off')
 ```
 
-![image](https://github.com/user-attachments/assets/0756db2e-d8e3-48ad-876b-8af9caed43e6)
+
 
 ### i)Image Translation
 ```python
@@ -113,6 +113,11 @@ plt.axis('off')
 plt.show()
 ```
 ## Output:
+
+### Original Image:
+
+![image](https://github.com/user-attachments/assets/0756db2e-d8e3-48ad-876b-8af9caed43e6)
+
 ### i)Image Translation
 
 ![image](https://github.com/user-attachments/assets/4ef15972-8c35-41e2-b8bb-2347b51114de)
